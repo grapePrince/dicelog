@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "plot practice",
   "scripts": {
-    "build": "lessc css/src/plotpage.less css/build/plotpage.css  && webpack -w"
+    "dev-build": "lessc css/src/diceLog.less css/build/diceLog.css  && webpack -w",
+    "build": "lessc css/src/diceLog.less css/build/diceLog.css  && webpack"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",

@@ -4,7 +4,7 @@ module.exports = {
     entry: {
         "app.js" : [
             'babel-polyfill',
-            path.resolve(__dirname, 'js/src/plotgame.js')
+            path.resolve(__dirname, 'js/src/diceLog.js')
         ]
     },
     output: {
