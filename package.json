@@ -1,7 +1,7 @@
 {
-  "name": "plotpage",
+  "name": "diceLog",
   "version": "0.0.0",
-  "description": "plot practice",
+  "description": "diceLog practice",
   "scripts": {
     "dev-build": "lessc css/src/diceLog.less css/build/diceLog.css  && webpack -w",
     "build": "lessc css/src/diceLog.less css/build/diceLog.css  && webpack"
