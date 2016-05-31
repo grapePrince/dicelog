@@ -23,13 +23,13 @@
 
 </style>
 
-<h3 class="w3-left-align w3-padding-large">[세션번호] 세션이름</h3>
+<h5 class="w3-left-align w3-padding-medium">[세션번호] 세션이름</h3>
 
-<div class="w3-light-grey" style="width:100%; height:300px; overflow-x: hidden;">
+<div class="w3-light-grey" style="width:100%; height:200px; overflow-x: hidden;">
   <table class="w3-centered" cellspacing="0" cellpadding="0" width="100%">
 	<colgroup>
-		<col width="10%">
-		<col width="5%">
+		<col width="90px">
+		<col width="100px">
 		<col>
 	</colgroup>
   <thead>
@@ -39,20 +39,60 @@
         <th scope="col">내용</th>
       </tr>
   </thead>
-	<tbody>
+	<tbody style="font-size:12px">
 		<tr>
-			<td>11</td>
-			<td>22</td>
-			<td>33</td>
+			<td>2016-05-03 01:05:03</td>
+			<td>사람1</td>
+			<td>안녕하세요?</td>
 		</tr>
 		<tr>
-			<td>ㅁㅁ</td>
-			<td>ㄴㄴ</td>
-			<td>ㅇㅇ</td>
+			<td>2016-05-03 01:05:03</td>
+			<td>사람2</td>
+			<td>네 안녕하세요.</td>
+		</tr>
+		<tr>
+			<td>2016-05-03 01:05:03</td>
+			<td>사람2</td>
+			<td>네 안녕하세요.</td>
+		</tr>
+		<tr>
+			<td>2016-05-03 01:05:03</td>
+			<td>사람2</td>
+			<td>네 안녕하세요.</td>
+		</tr>
+		<tr>   
+			<td>2016-05-03 01:05:03</td>
+			<td>사람2</td>
+			<td>주사위 : 2 / 1d3</td>
+		</tr>
+		<tr>
+			<td>2016-05-03 01:05:03</td>
+			<td>사람2</td>
+			<td>네 안녕하세요.</td>
+		</tr>
+		<tr>
+			<td>2016-05-03 01:05:03</td>
+			<td>사람2</td>
+			<td>네 안녕하세요.</td>
 		</tr>
 	</tbody>
 </table>
 </div> 
+<div class="w3-row w3-left-align w3-padding-medium">
+  <button class="w3-theme-d3 w3-btn">1d100</button>
+  <button class="w3-theme-d3 w3-btn">1d4</button>
+  <button class="w3-theme-d3 w3-btn">1d3</button>
+  <span style="display: inline-block;">
+    <span>1d</span>
+    <input type="text"/>
+    <button class="w3-theme-d3 w3-btn">굴리기</button>
+  </span>
+</div>
+
+<div class="w3-left-align w3-padding-medium">
+  <textarea class="w3-input" placeholder="대화를 입력하세요."></textarea>
+  <button class="w3-btn-block w3-theme-d3">전송</button>
+</div>
 
 <script src="js/lib/jquery-1.12.0.min.js"></script>	
 <script src="js/build/app.js" ></script>

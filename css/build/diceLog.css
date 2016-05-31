@@ -26,7 +26,7 @@ select {
   margin: 0;
   padding: 0;
 }
-.title {
+.plotTitle {
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -52,7 +52,7 @@ select {
   text-align: center;
   padding-top: 30px;
 }
-button {
+.plotbutton {
   width: 100px;
   height: 50px;
 }
