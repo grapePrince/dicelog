@@ -2,6 +2,7 @@
   "name": "diceLog",
   "version": "0.0.0",
   "description": "diceLog practice",
+  "private": true,
   "scripts": {
     "dev-build": "lessc css/src/diceLog.less css/build/diceLog.css  && webpack -w",
     "build": "lessc css/src/diceLog.less css/build/diceLog.css  && webpack"
@@ -14,6 +15,7 @@
     "css-loader": "^0.23.1",
     "less": "^2.6.0",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.12"
+    "webpack": "^1.12.12",
+    "express": "3.x"
   }
 }
